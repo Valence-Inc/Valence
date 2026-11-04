@@ -9,6 +9,7 @@ out/
 target/
 *.wasm
 !contracts/**/*.wasm
+test_snapshots/
 
 # ─── Environment ──────────────────────────────────────────
 .env

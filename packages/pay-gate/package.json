@@ -1,5 +1,5 @@
 {
-  "name": "@oja/pay-gate",
+  "name": "@kasuwa/pay-gate",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@oja/shared": "workspace:*"
+    "@kasuwa/shared": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.0"

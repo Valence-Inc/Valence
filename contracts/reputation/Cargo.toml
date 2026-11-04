@@ -1,5 +1,5 @@
 [package]
-name = "oja-reputation"
+name = "kasuwa-reputation"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,7 +9,7 @@ doctest = false
 
 [dependencies]
 soroban-sdk = { workspace = true }
-oja-common = { path = "../common" }
+kasuwa-common = { path = "../common" }
 
 [dev-dependencies]
 soroban-sdk = { workspace = true, features = ["testutils"] }

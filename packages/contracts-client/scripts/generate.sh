@@ -2,7 +2,7 @@
 # Phase 3: Generate TypeScript bindings from deployed contracts.
 # Requires ESCROW_CONTRACT_ID and REPUTATION_CONTRACT_ID in .env.
 #
-# Usage: pnpm --filter @oja/contracts-client generate
+# Usage: pnpm --filter @kasuwa/contracts-client generate
 
 set -euo pipefail
 

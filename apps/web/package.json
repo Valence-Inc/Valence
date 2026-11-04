@@ -1,5 +1,5 @@
 {
-  "name": "@oja/web",
+  "name": "@kasuwa/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@oja/shared": "workspace:*"
+    "@kasuwa/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

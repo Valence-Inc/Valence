@@ -5,6 +5,6 @@
 // contracts, produced by `stellar contract bindings typescript`.
 //
 // Usage:
-//   import { EscrowClient, ReputationClient } from "@oja/contracts-client";
+//   import { EscrowClient, ReputationClient } from "@kasuwa/contracts-client";
 
 export {};

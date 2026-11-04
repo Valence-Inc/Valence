@@ -7,10 +7,10 @@
  * Prerequisites:
  *   - Postgres running (docker compose up -d)
  *   - Contracts deployed (pnpm deploy:contracts)
- *   - API server running (pnpm dev --filter @oja/api)
+ *   - API server running (pnpm dev --filter @kasuwa/api)
  */
 
-console.log("=== Oja End-to-End Demo ===");
+console.log("=== Kasuwa End-to-End Demo ===");
 console.log("");
 console.log("TODO(Phase 7): Full e2e demo");
 console.log("  1. Create a testnet keypair");

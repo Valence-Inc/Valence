@@ -1,5 +1,5 @@
 {
-  "name": "@oja/contracts-client",
+  "name": "@kasuwa/contracts-client",
   "version": "0.1.0",
   "private": true,
   "type": "module",

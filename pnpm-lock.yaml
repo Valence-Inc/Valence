@@ -29,19 +29,19 @@ importers:
       '@hono/node-server':
         specifier: ^1.13.0
         version: 1.19.18(hono@4.13.16)
-      '@oja/db':
+      '@kasuwa/db':
         specifier: workspace:*
         version: link:../../packages/db
-      '@oja/orchestrator':
+      '@kasuwa/orchestrator':
         specifier: workspace:*
         version: link:../../packages/orchestrator
-      '@oja/pay-gate':
+      '@kasuwa/pay-gate':
         specifier: workspace:*
         version: link:../../packages/pay-gate
-      '@oja/payment-hub':
+      '@kasuwa/payment-hub':
         specifier: workspace:*
         version: link:../../packages/payment-hub
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../../packages/shared
       hono:
@@ -57,7 +57,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../../packages/shared
     devDependencies:
@@ -98,10 +98,10 @@ importers:
 
   packages/indexer:
     dependencies:
-      '@oja/db':
+      '@kasuwa/db':
         specifier: workspace:*
         version: link:../db
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -111,10 +111,10 @@ importers:
 
   packages/orchestrator:
     dependencies:
-      '@oja/payment-hub':
+      '@kasuwa/payment-hub':
         specifier: workspace:*
         version: link:../payment-hub
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -124,7 +124,7 @@ importers:
 
   packages/pay-gate:
     dependencies:
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:
@@ -134,7 +134,7 @@ importers:
 
   packages/payment-hub:
     dependencies:
-      '@oja/shared':
+      '@kasuwa/shared':
         specifier: workspace:*
         version: link:../shared
     devDependencies:

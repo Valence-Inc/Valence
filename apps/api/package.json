@@ -1,5 +1,5 @@
 {
-  "name": "@oja/api",
+  "name": "@kasuwa/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -11,11 +11,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@oja/db": "workspace:*",
-    "@oja/orchestrator": "workspace:*",
-    "@oja/payment-hub": "workspace:*",
-    "@oja/pay-gate": "workspace:*",
-    "@oja/shared": "workspace:*",
+    "@kasuwa/db": "workspace:*",
+    "@kasuwa/orchestrator": "workspace:*",
+    "@kasuwa/payment-hub": "workspace:*",
+    "@kasuwa/pay-gate": "workspace:*",
+    "@kasuwa/shared": "workspace:*",
     "hono": "^4.6.0",
     "@hono/node-server": "^1.13.0"
   },

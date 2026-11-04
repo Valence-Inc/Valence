@@ -1,7 +1,7 @@
 // Phase 6: Next.js configuration
 // transpilePackages ensures workspace packages are bundled correctly.
 const nextConfig = {
-  transpilePackages: ["@oja/shared"],
+  transpilePackages: ["@kasuwa/shared"],
 };
 
 export default nextConfig;

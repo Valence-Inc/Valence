@@ -1,4 +1,4 @@
-import type { TaskPlan, ContractTaskId } from "@oja/shared";
+import type { TaskPlan, ContractTaskId } from "@kasuwa/shared";
 
 // ─── Result types ──────────────────────────────────────────
 

@@ -1,15 +1,15 @@
 {
-  "name": "oja",
+  "name": "kasuwa",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "test": "turbo test",
-    "typecheck": "turbo typecheck",
-    "db:generate": "pnpm --filter @oja/db generate",
-    "db:migrate": "pnpm --filter @oja/db migrate",
-    "db:push": "pnpm --filter @oja/db push",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "db:generate": "pnpm --filter @kasuwa/db generate",
+    "db:migrate": "pnpm --filter @kasuwa/db migrate",
+    "db:push": "pnpm --filter @kasuwa/db push",
     "demo": "tsx scripts/demo.ts",
     "deploy:contracts": "bash scripts/deploy.sh",
     "fund": "bash scripts/fund-accounts.sh"
@@ -27,4 +27,3 @@
     "pnpm": ">=11"
   }
 }
-

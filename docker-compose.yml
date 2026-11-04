@@ -4,17 +4,16 @@ services:
     ports:
       - "5433:5432"
     environment:
-      POSTGRES_USER: oja
-      POSTGRES_PASSWORD: oja
-      POSTGRES_DB: oja
+      POSTGRES_USER: kasuwa
+      POSTGRES_PASSWORD: kasuwa
+      POSTGRES_DB: kasuwa
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U oja"]
+      test: ["CMD-SHELL", "pg_isready -U kasuwa"]
       interval: 5s
       timeout: 5s
       retries: 5
 
 volumes:
   pgdata:
-

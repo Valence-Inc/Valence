@@ -7,7 +7,7 @@ const app = new Hono();
 app.use("*", logger());
 
 // ─── Health check ──────────────────────────────────────────
-app.get("/health", (c) => c.json({ status: "ok", service: "oja-api" }));
+app.get("/health", (c) => c.json({ status: "ok", service: "kasuwa-api" }));
 
 // ─── Phase 5 routes (stubs) ───────────────────────────────
 // POST /tasks      — submit a new task with budget
@@ -17,7 +17,7 @@ app.get("/health", (c) => c.json({ status: "ok", service: "oja-api" }));
 
 app.get("/", (c) =>
   c.json({
-    name: "Oja API",
+    name: "Kasuwa API",
     version: "0.1.0",
     docs: "Phase 5: routes for tasks, workers, ledger",
   }),
@@ -26,5 +26,5 @@ app.get("/", (c) =>
 const port = Number(process.env["API_PORT"] ?? 4000);
 
 serve({ fetch: app.fetch, port }, (info) => {
-  console.log(`Oja API listening on http://localhost:${info.port}`);
+  console.log(`Kasuwa API listening on http://localhost:${info.port}`);
 });

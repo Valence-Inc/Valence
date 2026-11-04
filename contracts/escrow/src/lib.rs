@@ -1,6 +1,6 @@
 #![no_std]
 
-use oja_common::StepSpec;
+use kasuwa_common::StepSpec;
 use soroban_sdk::{contract, contractimpl, Address, BytesN, Env, Vec};
 
 #[contract]

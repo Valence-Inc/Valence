@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-echo "=== Oja Testnet Account Funding ==="
+echo "=== Kasuwa Testnet Account Funding ==="
 echo ""
 echo "TODO(Phase 2): Create and fund accounts"
 echo "  1. stellar keys generate deployer --network testnet"

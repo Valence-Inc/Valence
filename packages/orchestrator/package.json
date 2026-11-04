@@ -1,5 +1,5 @@
 {
-  "name": "@oja/orchestrator",
+  "name": "@kasuwa/orchestrator",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -15,8 +15,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@oja/payment-hub": "workspace:*",
-    "@oja/shared": "workspace:*"
+    "@kasuwa/payment-hub": "workspace:*",
+    "@kasuwa/shared": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.7.0"

@@ -1,0 +1,23 @@
+{
+  "name": "@oja/pay-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "lint": "echo 'TODO: eslint'",
+    "test": "echo 'no tests yet'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@oja/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

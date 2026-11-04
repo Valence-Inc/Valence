@@ -1,0 +1,30 @@
+{
+  "name": "oja",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "db:generate": "pnpm --filter @oja/db generate",
+    "db:migrate": "pnpm --filter @oja/db migrate",
+    "db:push": "pnpm --filter @oja/db push",
+    "demo": "tsx scripts/demo.ts",
+    "deploy:contracts": "bash scripts/deploy.sh",
+    "fund": "bash scripts/fund-accounts.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.4.0",
+    "tsx": "^4.19.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "pnpm@11.14.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=11"
+  }
+}
+

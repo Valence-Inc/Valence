@@ -1,0 +1,22 @@
+{
+  "name": "@oja/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'TODO(Phase 6): Next.js web app'",
+    "build": "echo 'TODO(Phase 6): Next.js build'",
+    "start": "echo 'TODO(Phase 6): Next.js start'",
+    "lint": "echo 'TODO: lint'",
+    "test": "echo 'no tests yet'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@oja/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

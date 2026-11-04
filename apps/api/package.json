@@ -1,0 +1,26 @@
+{
+  "name": "@oja/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "echo 'TODO: bundle'",
+    "lint": "echo 'TODO: eslint'",
+    "test": "echo 'no tests yet'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@oja/db": "workspace:*",
+    "@oja/orchestrator": "workspace:*",
+    "@oja/payment-hub": "workspace:*",
+    "@oja/pay-gate": "workspace:*",
+    "@oja/shared": "workspace:*",
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
